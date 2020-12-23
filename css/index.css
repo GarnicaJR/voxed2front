@@ -1,6 +1,5 @@
-
-header{
-    margin-bottom: 60px;
+.version{
+    font-size:15px;
 }
 
 .navbar{
@@ -37,3 +36,26 @@ header{
     margin-bottom: 0rem !important;
 }
 
+.btn-header{
+    background-color:#0d47a1;
+    text-transform: uppercase;
+}
+
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+
+.img-vox{
+    opacity: 0.8;
+    
+}
+
+.title-vox{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    font-family: sans-serif;
+}
