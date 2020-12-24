@@ -69,3 +69,19 @@
     color:white;
     text-shadow: 1px 1px 2px black
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+    .img-vox{
+
+        opacity: 0.8;
+        transition:0.5s opacity ease-in-out;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 70vw;
+        object-fit: cover;
+    }
+  }
